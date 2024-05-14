@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Input, Button } from "antd";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/ProjectLogo.png";
 import logLogo from "../Assets/log-logo.png";
 import toast from "react-hot-toast";
 import { loginUser } from "../api/api";
@@ -59,7 +59,7 @@ const LoginPage = () => {
                 className="login-form"
               >
                 <h2 className="text-center fw-medium display-5 mb-3 montserrat">
-                  Login Form
+                  Login
                 </h2>
                 <div className="d-flex mx-auto justify-content-center w-75">
                   <img src={logo} className="w-75" alt={logo} />
